@@ -18,7 +18,7 @@ class WorkoutTypeChoices(models.TextChoices):
     CARDIO = 'Cardio', 'Cardio'
     STRENGTH = 'Strength', 'Strength'
     YOGA = 'Yoga', 'Yoga'
-    CROSSFIT = 'Crossfit', 'Crossfit'
+    CROSSFIT = 'CrossFit', 'CrossFit'
     CALISTHENICS = 'Calisthenics', 'Calisthenics'
 
 
