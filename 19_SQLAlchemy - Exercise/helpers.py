@@ -17,8 +17,3 @@ def session_decorator(session, autoclose_session=True):
 
         return wrapper
     return decorator
-
-
-@session_decorator(1)
-def sum(a, b):
-    return a + b

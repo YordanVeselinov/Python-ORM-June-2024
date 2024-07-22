@@ -13,7 +13,7 @@ class Recipe(Base):
     )
 
     name = Column(
-        String(100),  # models.CharField(max_length=100)
+        String(100),
         nullable=False
     )
 
