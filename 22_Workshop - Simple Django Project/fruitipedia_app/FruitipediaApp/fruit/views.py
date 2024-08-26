@@ -5,8 +5,8 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, DeleteView
 
-from fruitipedia_app.fruit.forms import EditFruitForm, AddFruitForm, DeleteFruitForm, CategoryAddForm
-from fruitipedia_app.fruit.models import Fruit
+from FruitipediaApp.fruit.forms import EditFruitForm, AddFruitForm, DeleteFruitForm, CategoryAddForm
+from FruitipediaApp.fruit.models import Fruit
 
 
 

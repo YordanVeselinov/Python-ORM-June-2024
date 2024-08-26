@@ -1,5 +1,5 @@
 from django import forms
-from fruitipedia_app.fruit.models import Category, Fruit
+from FruitipediaApp.fruit.models import Category, Fruit
 
 
 class CategoryBaseForm(forms.ModelForm):

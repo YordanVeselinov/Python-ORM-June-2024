@@ -1,5 +1,5 @@
 from django.urls import path, include
-from fruitipedia_app.fruit import views
+from FruitipediaApp.fruit import views
 
 urlpatterns = (
     path('', views.index, name="index"),
